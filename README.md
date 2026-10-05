@@ -1,1 +1,150 @@
-# week3
+<!DOCTYPEDOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title displayed in the browser tab -->
+    <title>Sudin Adhikari - Personal Portfolio</title>
+
+    <!-- Connects the external CSS file for webpage styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header section containing the portfolio title and navigation menu -->
+    <header>
+        <h1>Sudin Adhikari- Personal Portfolio</h1>
+
+        <!-- Navigation links to different sections of the portfolio -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area of the portfolio -->
+    <main>
+
+        <!-- About section introduces the portfolio owner -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <!-- Contains the profile image and personal introduction -->
+            <div class="about-content">
+                <img src="c:\Users\uSer\Documents\Screenshots\459435475_1904443253372076_8937978135469250671_n.jpg" alt="Profile photo of Sudin Adhiari">
+
+                <p>
+                    Hello! My name is Sudin Adhiakri. I am a student interested
+                    in web design and development. I enjoy learning new
+                    technologies and creating simple and useful websites.
+                    This portfolio shows some of my skills, projects and
+                    interests in web development.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills section lists the technical skills -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <!-- Description list used to explain each skill -->
+            <dl>
+                <dt>HTML</dt>
+                <dd>Creating structured and semantic web pages.</dd>
+
+                <dt>CSS</dt>
+                <dd>Designing attractive and responsive web pages.</dd>
+
+                <dt>GitHub</dt>
+                <dd>Managing and publishing website projects.</dd>
+            </dl>
+        </section>
+
+        <!-- Projects section displays completed projects -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <!-- Container for arranging the project cards -->
+            <div class="project-container">
+
+                <!-- First project card -->
+                <article class="project-card">
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A personal portfolio website created using semantic
+                        HTML and CSS to display my skills and projects.
+                    </p>
+
+                    <!-- Link to the personal portfolio GitHub repository -->
+                    <a href="https://github.com/sudu0004/week2s-assigment" target="_blank">
+                        View Project
+                    </a>
+                </article>
+
+                <!-- Second project card -->
+                <article class="project-card">
+                    <h3>Student Profile Card</h3>
+
+                    <p>
+                        A simple student profile webpage created to practice
+                        HTML structure, CSS styling, and responsive design.
+                    </p>
+
+                    <!-- Link to the GitHub profile -->
+                    <a href="" target="_blank">
+                        View GitHub
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact section contains a form for visitors -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <!-- Contact form for collecting visitor information -->
+            <form>
+
+                <!-- Name input field -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Email input field -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Message input field -->
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <!-- Button used to submit the contact form -->
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer section displayed at the bottom of the webpage -->
+    <footer>
+        <p>&copy; 2026 Kripa Shrestha. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
